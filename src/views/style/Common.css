@@ -1,0 +1,53 @@
+.blackbg{
+    background-color: #080808 !important;
+}
+.font7rem{
+    font-size: 7rem;
+    line-height: initial;
+}
+.bigimg{
+    height: 570px;
+
+    background-image: url("C:\Users\Soham Waglekar\Desktop\ColgProject\legalproject\src\assets\img\banner.svg");
+    background-repeat: repeat;
+
+}
+.navbar-light .navbar-brand {
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 14px !important;
+    color: #fff !important;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 14px !important;
+    color: #fff !important;
+  }
+  .text100{
+font-size: 100px;
+  letter-spacing: 10px;
+  }
+  .textyellow{
+    color: rgb(254 240 138);
+  }
+  .bgyellow{
+      background-color: rgb(254 240 138);;
+  }
+p{
+    margin-bottom: 0 !important;
+}
+.accordionbox{
+    border-bottom: 2px solid #606f7b !important;
+}
+.accordionboxcard{
+   border: none !important;
+}
+.bordernavbar{
+  border-bottom: 1px solid rgb(254 240 138);
+}
+.gridimages{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
