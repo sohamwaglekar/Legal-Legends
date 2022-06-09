@@ -652,7 +652,10 @@ gridAutoColumns: {
     '48': '12rem',
     '64': '16rem',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
+    'min': 'min-content',
+    'max': 'max-content',
+    'fit': 'fit-content'
   },
 
 
