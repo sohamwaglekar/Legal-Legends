@@ -9,6 +9,7 @@ import CoverPhase from "./components/Cover-Phase.vue";
 export default {
     components:{
         CoverPhase
-    }
+    },
+    
 }
 </script>

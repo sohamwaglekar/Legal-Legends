@@ -151,9 +151,24 @@ How can I find if my question was answered?
                 The internet is not a lawyer and neither are you.<br>Talk to a real lawyer about your legal issue
             </p>
             <div class="flex justify-center">
-            <b-button class="blackbg text-white my-4 px-8 hover:text-prime" variant="">BOOK NOW</b-button>
+            <b-button class="blackbg text-white my-4 px-8 hover:text-prime" variant="" @click="handleClick('services')">BOOK NOW</b-button>
             </div>
         </div>
         </div>
     </div>
 </template>
+
+<script>
+export default {
+    methods: {
+         handleClick(name){
+this.$router.push({name:name})
+let loader = this.$loading.show()
+setTimeout(() => {
+                    loader.hide()
+                }, 2000)
+
+},
+    },
+}
+</script>

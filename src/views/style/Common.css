@@ -1,3 +1,7 @@
+body{
+  background-color: #080808 !important;
+  font-family: 'Times New Roman', Times, serif;
+}
 .blackbg{
     background-color: #080808 !important;
 }
@@ -6,10 +10,12 @@
     line-height: initial;
 }
 .bigimg{
-    height: 570px;
+    
 
-    background-image: url("C:\Users\Soham Waglekar\Desktop\ColgProject\legalproject\src\assets\img\banner.svg");
-    background-repeat: repeat;
+    background-image: url("C:\Users\Soham Waglekar\Desktop\ColgProject\legalproject\src\assets\img\yellowbg.png");
+      object-fit: fill;
+      background-size: 100% 100px;
+      background-repeat: repeat-y;
 
 }
 .navbar-light .navbar-brand {
@@ -54,4 +60,14 @@ p{
 .aboutusbookingbox{
   position: sticky;
   top: 10px;
+}
+.rightborder-on-signup{
+border-right: 4px solid rgb(254 240 138);
+height: 40rem;
+}
+.yellowimg{
+  background-image: url("C:\Users\Soham Waglekar\Desktop\ColgProject\legalproject\src\assets\img\yellowline.webp");
+  object-fit: fill;
+  background-size: 100% 95px;
+    background-repeat: no-repeat;
 }

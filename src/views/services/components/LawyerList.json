@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "image": "http://localhost:8000/images/L1.webp",
+          "lawyername": "Anna Thurium",
+          "information":"I'am a professional laywer in family law cases",
+          "email": "xyz@xyz.com",
+          "mobile": "1234512345",
+          "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eos beatae temporibus cumque sunt, harum veniam ad ducimus cum.",
+          "laywerprofile": "Family Law"
+    },
+    {
+        "id":2,
+        "image": "http://localhost:8000/images/L2.webp",
+          "lawyername": "Paige Turner",
+          "information":"I'am a professional laywer in property cases",
+           "email": "xyz@xyz.com",
+          "mobile": "1234512345",
+           "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eos beatae temporibus cumque sunt, harum veniam ad ducimus cum.",
+          "laywerprofile": "Property Law"
+    },
+    {
+        "id":3,
+        "image": "http://localhost:8000/images/L2.webp",
+          "lawyername": "Olive Yew",
+          "information":"I'am a professional laywer in creating documents ",
+           "email": "xyz@xyz.com",
+          "mobile": "1234512345",
+           "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eos beatae temporibus cumque sunt, harum veniam ad ducimus cum.",
+          "laywerprofile": "Documentation"
+    },
+    {
+        "id":4,
+        "image": "http://localhost:8000/images/L1.webp",
+          "lawyername": "Art Decco",
+          "information":"I'am a professional laywer in family law cases",
+           "email": "xyz@xyz.com",
+          "mobile": "1234512345",
+           "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eos beatae temporibus cumque sunt, harum veniam ad ducimus cum.",
+          "laywerprofile": "Family Law"
+    },
+    {
+        "id":5,
+        "image": "http://localhost:8000/images/L1.webp",
+          "lawyername": "Cherry Blossom",
+          "information":"I'am a professional laywer in civil law cases and matters",
+           "email": "xyz@xyz.com",
+          "mobile": "1234512345",
+           "address": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eos beatae temporibus cumque sunt, harum veniam ad ducimus cum.",
+         "laywerprofile": "Civil Law"
+    }
+]
