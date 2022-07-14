@@ -68,6 +68,9 @@ export default {
               descripton: this.descr
           }  
           await axios.post('http://localhost:8000/api/order', payload)
+           this.$router.push({
+                name:'order'
+            })
         }
     },
     computed:{

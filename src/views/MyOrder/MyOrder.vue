@@ -9,31 +9,31 @@
             <p class="text-white text-xl font-semibold">{{item.Lawyername}}</p>
        </div>
        <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Email is:</p>
             <p class="text-white text-xl font-semibold">{{item.Lawyeremail}}</p>
        </div>
        <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Mobile is:</p>
             <p class="text-white text-xl font-semibold">{{item.Lawyermobile}}</p>
        </div>
-       <div class="mb-3 flex items-center">
+       <!-- <div class="mb-3 flex items-center">
         <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
             <p class="text-white text-xl font-semibold">{{item.Lawyername}}</p>
-       </div>
+       </div> -->
        <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Address is:</p>
             <p class="text-white text-xl font-semibold">{{item.LawyerAdress}}</p>
        </div>
         <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Appointment Date is:</p>
             <p class="text-white text-xl font-semibold">{{item.date}}</p>
        </div>
         <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Appointment Time is:</p>
             <p class="text-white text-xl font-semibold">{{item.time}}</p>
        </div>
         <div class="mb-3 flex items-center">
-        <p class="mr-4 text-prime text-xl font-semibold">Your Lawyer Name is:</p>
+        <p class="mr-4 text-prime text-xl font-semibold">Your Case Description is:</p>
             <p class="text-white text-xl font-semibold">{{item.descripton}}</p>
        </div>
            
@@ -48,7 +48,7 @@
             </p>
             
             <div class="flex justify-center">
-            <b-button class="blackbg text-white my-4 px-8 hover:text-prime" variant="">BOOK NOW</b-button>
+            <b-button class="blackbg text-white my-4 px-8 hover:text-prime" variant="" @click="handleClick('services')">BOOK NOW</b-button>
             
             </div>
         </div>
@@ -68,7 +68,15 @@ export default {
                 userid:this.user._id
                 })
                 this.$store.commit("auth/myorder", data.data)
-        }
+        },
+        handleClick(name){
+this.$router.push({name:name})
+let loader = this.$loading.show()
+setTimeout(() => {
+                    loader.hide()
+                }, 2000)
+
+},
         
     },
     mounted () {
